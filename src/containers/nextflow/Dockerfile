@@ -1,4 +1,4 @@
-FROM centos:7 AS build
+FROM public.ecr.aws/maxird/centos:7 AS build
 
 RUN yum update -y \
  && yum install -y \

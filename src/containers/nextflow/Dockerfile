@@ -1,4 +1,4 @@
-FROM public.ecr.aws/maxird/centos:7 AS build
+FROM public.ecr.aws/amazonlinux/amazonlinux:latest AS build
 
 RUN yum update -y \
  && yum install -y \
